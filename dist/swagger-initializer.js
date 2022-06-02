@@ -4,6 +4,7 @@ window.onload = function() {
   // the following lines will be replaced by docker/configurator, when it runs in a docker-container
   window.ui = SwaggerUIBundle({
     urls: [
+        {url: "https://booking.api.carbucks.io/swagger.yaml", name: "Booking"},
         {url: "https://car.api.carbucks.io/swagger.yaml", name: "Car"},
         {url: "https://insurer.api.carbucks.io/swagger.yaml", name: "Insurer"},
         {url: "https://login.api.carbucks.io/swagger.yaml", name: "Login"},
