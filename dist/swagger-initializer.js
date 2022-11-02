@@ -6,7 +6,7 @@ window.onload = function() {
     urls: [
         {url: "https://booking.api.carbucks.io/swagger.yaml", name: "Booking"},
         {url: "https://car.api.carbucks.io/swagger.yaml", name: "Car"},
-        {url: "https://insurer.api.carbucks.io/swagger.yaml", name: "Insurer"},
+        {url: "https://partner.api.carbucks.io/swagger.yaml", name: "Partner"},
         {url: "https://login.api.carbucks.io/swagger.yaml", name: "Login"},
         {url: "https://message.api.carbucks.io/swagger.yaml", name: "Message"},
         {url: "https://user.api.carbucks.io/swagger.yaml", name: "User"},
