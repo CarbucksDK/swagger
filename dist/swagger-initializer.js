@@ -5,7 +5,6 @@ window.onload = function() {
   window.ui = SwaggerUIBundle({
     urls: [
         {url: "https://booking.api.carbucks.io/swagger.yaml", name: "Booking"},
-        {url: "https://car.api.carbucks.io/swagger.yaml", name: "Car"},
         {url: "https://partner.api.carbucks.io/swagger.yaml", name: "Partner"},
         {url: "https://login.api.carbucks.io/swagger.yaml", name: "Login"},
         {url: "https://message.api.carbucks.io/swagger.yaml", name: "Message"},
