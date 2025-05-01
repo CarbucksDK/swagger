@@ -11,7 +11,8 @@ window.onload = function() {
         {url: "https://user.api.carbucks.io/swagger.yaml", name: "User"},
         {url: "https://order.api.carbucks.io/swagger.yaml", name: "Order"},
         {url: "https://forsi.api.carbucks.io/swagger.yaml", name: "Forsi"},
-        {url: "https://invoice.api.carbucks.io/swagger.yaml", name: "Invoice"}
+        {url: "https://invoice.api.carbucks.io/swagger.yaml", name: "Invoice"},
+        {url: "https://link.carbucks.io/swagger.yaml", name: "Link"}
     ],
     dom_id: '#swagger-ui',
     deepLinking: true,
